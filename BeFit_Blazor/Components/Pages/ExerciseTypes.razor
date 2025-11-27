@@ -1,0 +1,112 @@
+﻿@page "/exercise-types"
+
+<h3>Typy ćwiczeń</h3>
+
+@using BeFit_Blazor.Data
+@using BeFit_Blazor.Models
+@using Microsoft.EntityFrameworkCore
+@inject ApplicationDbContext Db
+@inject NavigationManager Nav
+
+<button class="btn btn-primary mb-3" @onclick="StartCreate">Dodaj nowy typ</button>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nazwa</th>
+            <th>Opis</th>
+            <th>Akcje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var t in exerciseTypes)
+        {
+            <tr>
+                <td>@t.Name</td>
+                <td>@t.Description</td>
+                <td>
+                    <button class="btn btn-warning btn-sm" @onclick="() => StartEdit(t)">Edytuj</button>
+                    <button class="btn btn-danger btn-sm" @onclick="() => DeleteAsync(t.Id)">Usuń</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (isEditing)
+{
+    <EditForm Model="editing" OnValidSubmit="SaveAsync">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-3">
+            <label class="form-label">Nazwa ćwiczenia</label>
+            <InputText class="form-control" @bind-Value="editing.Name" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Opis</label>
+            <InputText class="form-control" @bind-Value="editing.Description" />
+        </div>
+
+        <button type="submit" class="btn btn-success">Zapisz</button>
+        <button type="button" class="btn btn-secondary ms-2" @onclick="CancelEdit">Anuluj</button>
+    </EditForm>
+}
+
+
+@code {
+    private List<ExerciseType> exerciseTypes = new();
+    private ExerciseType editing = new();
+    private bool isEditing = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        exerciseTypes = await Db.ExerciseTypes.ToListAsync();
+    }
+    private async Task StartCreate()
+    {
+        editing = new ExerciseType();
+        isEditing = true;
+    }
+    private async Task StartEdit(ExerciseType type)
+    {
+       editing = new ExerciseType
+        {
+            Id = type.Id,
+            Name = type.Name,
+            Description = type.Description
+        };
+        isEditing = true;
+    }
+    private void CancelEdit()
+    {
+        isEditing = false;
+        editing = new ExerciseType();
+        
+    }
+    private async Task SaveAsync()
+    {
+        if (editing.Id == 0)
+        {
+            Db.ExerciseTypes.Add(editing);
+        }
+        else
+        {
+            Db.ExerciseTypes.Update(editing);
+        }
+        await Db.SaveChangesAsync();
+        exerciseTypes = await Db.ExerciseTypes.ToListAsync();
+        isEditing = false;
+    }
+    private async Task DeleteAsync(int id)
+    {
+        var item = await Db.ExerciseTypes.FindAsync(id);
+        if (item != null)
+        {
+            Db.ExerciseTypes.Remove(item);
+            await Db.SaveChangesAsync();
+            exerciseTypes = await Db.ExerciseTypes.ToListAsync();
+        }
+    }
+}
