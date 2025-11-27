@@ -2,7 +2,7 @@
 
 namespace BeFit_Blazor.Models
 {
-    public class AplicationUser: IdentityUser
+    public class ApplicationUser: IdentityUser
     {
     }
 }

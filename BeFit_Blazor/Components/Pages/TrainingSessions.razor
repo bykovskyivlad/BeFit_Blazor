@@ -1,0 +1,137 @@
+﻿@page "/training-sessions"
+
+@using BeFit_Blazor.Data
+@using BeFit_Blazor.Models
+@using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Identity
+@inject ApplicationDbContext Db
+@inject UserManager<ApplicationUser> UserManager
+@inject AuthenticationStateProvider AuthStateProvider
+
+<h3>Twoje sesje treningowe</h3>
+
+<button class="btn btn-primary mb-3" @onclick="StartCreate">Dodaj sesję</button>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Start</th>
+            <th>Koniec</th>
+            <th>Akcje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var s in sessions)
+        {
+            <tr>
+                <td>@s.StartTime</td>
+                <td>@s.EndTime</td>
+                <td>
+                    <button class="btn btn-warning btn-sm" @onclick="() => StartEdit(s)">Edytuj</button>
+                    <button class="btn btn-danger btn-sm" @onclick="() => DeleteAsync(s.Id)">Usuń</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (isEditing)
+{
+    <EditForm Model="editing" OnValidSubmit="SaveAsync">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-3">
+            <label>Czas rozpoczęcia</label>
+            <InputDate class="form-control" @bind-Value="editing.StartTime" />
+        </div>
+
+        <div class="mb-3">
+            <label>Czas zakończenia</label>
+            <InputDate class="form-control" @bind-Value="editing.EndTime" />
+        </div>
+
+        <button class="btn btn-success">Zapisz</button>
+        <button type="button" class="btn btn-secondary ms-2" @onclick="CancelEdit">Anuluj</button>
+    </EditForm>
+}
+
+@code {
+    private List<TrainingSession> sessions = new();
+    private TrainingSession editing = new();
+    private bool isEditing = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var userId = await GetUserId();
+
+        sessions = await Db.TrainingSessions
+            .Where(s => s.UserId == userId)
+            .ToListAsync();
+    }
+
+    private async Task<string> GetUserId()
+    {
+        var authState = await AuthStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+        return UserManager.GetUserId(user);
+    }
+
+    private async Task StartCreate()
+    {
+        editing = new TrainingSession();
+        isEditing = true;
+    }
+
+    private async Task StartEdit(TrainingSession s)
+    {
+        editing = new TrainingSession
+        {
+            Id = s.Id,
+            StartTime = s.StartTime,
+            EndTime = s.EndTime
+        };
+        isEditing = true;
+    }
+
+    private void CancelEdit()
+    {
+        editing = new TrainingSession();
+        isEditing = false;
+    }
+
+    private async Task SaveAsync()
+    {
+        var userId = await GetUserId();
+        editing.UserId = userId;
+
+        if (editing.Id == 0)
+            Db.TrainingSessions.Add(editing);
+        else
+            Db.TrainingSessions.Update(editing);
+
+        await Db.SaveChangesAsync();
+
+        sessions = await Db.TrainingSessions
+            .Where(s => s.UserId == userId)
+            .ToListAsync();
+
+        isEditing = false;
+    }
+
+    private async Task DeleteAsync(int id)
+    {
+        var userId = await GetUserId();
+
+        var s = await Db.TrainingSessions.FindAsync(id);
+        if (s == null || s.UserId != userId)
+            return;
+
+        Db.TrainingSessions.Remove(s);
+        await Db.SaveChangesAsync();
+
+        sessions = await Db.TrainingSessions
+            .Where(s => s.UserId == userId)
+            .ToListAsync();
+    }
+}

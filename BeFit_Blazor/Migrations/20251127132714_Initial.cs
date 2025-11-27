@@ -12,31 +12,6 @@ namespace BeFit_Blazor.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "AplicationUser",
-                columns: table => new
-                {
-                    Id = table.Column<string>(type: "TEXT", nullable: false),
-                    UserName = table.Column<string>(type: "TEXT", nullable: true),
-                    NormalizedUserName = table.Column<string>(type: "TEXT", nullable: true),
-                    Email = table.Column<string>(type: "TEXT", nullable: true),
-                    NormalizedEmail = table.Column<string>(type: "TEXT", nullable: true),
-                    EmailConfirmed = table.Column<bool>(type: "INTEGER", nullable: false),
-                    PasswordHash = table.Column<string>(type: "TEXT", nullable: true),
-                    SecurityStamp = table.Column<string>(type: "TEXT", nullable: true),
-                    ConcurrencyStamp = table.Column<string>(type: "TEXT", nullable: true),
-                    PhoneNumber = table.Column<string>(type: "TEXT", nullable: true),
-                    PhoneNumberConfirmed = table.Column<bool>(type: "INTEGER", nullable: false),
-                    TwoFactorEnabled = table.Column<bool>(type: "INTEGER", nullable: false),
-                    LockoutEnd = table.Column<DateTimeOffset>(type: "TEXT", nullable: true),
-                    LockoutEnabled = table.Column<bool>(type: "INTEGER", nullable: false),
-                    AccessFailedCount = table.Column<int>(type: "INTEGER", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_AplicationUser", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "AspNetRoles",
                 columns: table => new
                 {
@@ -87,27 +62,6 @@ namespace BeFit_Blazor.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_ExerciseTypes", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "TrainingSessions",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    UserId = table.Column<string>(type: "TEXT", nullable: false),
-                    StartTime = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    EndTime = table.Column<DateTime>(type: "TEXT", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_TrainingSessions", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_TrainingSessions_AplicationUser_UserId",
-                        column: x => x.UserId,
-                        principalTable: "AplicationUser",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -217,6 +171,27 @@ namespace BeFit_Blazor.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "TrainingSessions",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    UserId = table.Column<string>(type: "TEXT", nullable: false),
+                    StartTime = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    EndTime = table.Column<DateTime>(type: "TEXT", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_TrainingSessions", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_TrainingSessions_AspNetUsers_UserId",
+                        column: x => x.UserId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "ExerciseEntries",
                 columns: table => new
                 {
@@ -233,9 +208,9 @@ namespace BeFit_Blazor.Migrations
                 {
                     table.PrimaryKey("PK_ExerciseEntries", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_ExerciseEntries_AplicationUser_UserId",
+                        name: "FK_ExerciseEntries_AspNetUsers_UserId",
                         column: x => x.UserId,
-                        principalTable: "AplicationUser",
+                        principalTable: "AspNetUsers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
@@ -335,16 +310,13 @@ namespace BeFit_Blazor.Migrations
                 name: "AspNetRoles");
 
             migrationBuilder.DropTable(
-                name: "AspNetUsers");
-
-            migrationBuilder.DropTable(
                 name: "ExerciseTypes");
 
             migrationBuilder.DropTable(
                 name: "TrainingSessions");
 
             migrationBuilder.DropTable(
-                name: "AplicationUser");
+                name: "AspNetUsers");
         }
     }
 }

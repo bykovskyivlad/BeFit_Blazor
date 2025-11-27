@@ -1,6 +1,7 @@
 using System.Diagnostics.CodeAnalysis;
 using Microsoft.AspNetCore.Components;
 
+
 namespace BeFit_Blazor.Components.Account
 {
     internal sealed class IdentityRedirectManager(NavigationManager navigationManager)

@@ -1,6 +1,8 @@
 using BeFit_Blazor.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
+using BeFit_Blazor.Models;
+
 
 namespace BeFit_Blazor.Components.Account
 {

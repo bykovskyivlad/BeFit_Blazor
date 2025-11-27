@@ -4,6 +4,8 @@ using BeFit_Blazor.Data;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using BeFit_Blazor.Models;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
