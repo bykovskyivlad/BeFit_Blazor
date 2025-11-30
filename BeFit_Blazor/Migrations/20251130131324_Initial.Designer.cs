@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BeFit_Blazor.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20251130010547_Initial")]
+    [Migration("20251130131324_Initial")]
     partial class Initial
     {
         /// <inheritdoc />

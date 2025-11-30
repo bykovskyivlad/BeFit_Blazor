@@ -1,13 +1,15 @@
 ﻿@page "/training-sessions"
 @attribute [Authorize]
+@rendermode InteractiveServer
 
 @using BeFit_Blazor.Data
 @using BeFit_Blazor.Models
 @using Microsoft.AspNetCore.Authorization
-@using Microsoft.EntityFrameworkCore
-@using Microsoft.AspNetCore.Identity
 @using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.EntityFrameworkCore
 @using Microsoft.AspNetCore.Components.Forms
+
 @inject ApplicationDbContext Db
 @inject UserManager<ApplicationUser> UserManager
 @inject AuthenticationStateProvider AuthStateProvider
@@ -64,21 +66,21 @@
     private List<TrainingSession> sessions = new();
     private TrainingSession editing = new();
     private bool isEditing = false;
+    private string? currentUserId;
 
     protected override async Task OnInitializedAsync()
     {
-        var userId = await GetUserId();
-        if (string.IsNullOrEmpty(userId))
+        currentUserId = await GetUserId();
+        if (string.IsNullOrEmpty(currentUserId))
             return;
 
         sessions = await Db.TrainingSessions
-            .Where(s => s.UserId == userId)
+            .Where(s => s.UserId == currentUserId)
             .OrderByDescending(s => s.StartTime)
             .ToListAsync();
     }
 
-
-    private async Task<string> GetUserId()
+    private async Task<string?> GetUserId()
     {
         var authState = await AuthStateProvider.GetAuthenticationStateAsync();
         var user = authState.User;
@@ -87,7 +89,12 @@
 
     private void StartCreate()
     {
-        editing = new TrainingSession();
+        editing = new TrainingSession
+        {
+            UserId = currentUserId!,      // ustawiamy od razu, żeby walidacja nie krzyczała
+            StartTime = DateTime.Today,
+            EndTime = DateTime.Today
+        };
         isEditing = true;
     }
 
@@ -96,6 +103,7 @@
         editing = new TrainingSession
         {
             Id = s.Id,
+            UserId = currentUserId!,      // też ustawiamy
             StartTime = s.StartTime,
             EndTime = s.EndTime
         };
@@ -110,54 +118,54 @@
 
     private async Task SaveAsync()
     {
-        var userId = await GetUserId();
-        if (string.IsNullOrEmpty(userId))
+        if (string.IsNullOrEmpty(currentUserId))
             return;
 
         if (editing.Id == 0)
         {
-            
-            editing.UserId = userId;
+            editing.UserId = currentUserId!;
             Db.TrainingSessions.Add(editing);
         }
         else
         {
-            
             var session = await Db.TrainingSessions
-                .FirstOrDefaultAsync(s => s.Id == editing.Id && s.UserId == userId);
+                .FirstOrDefaultAsync(s => s.Id == editing.Id && s.UserId == currentUserId);
 
             if (session is null)
-                return; 
+                return;
 
             session.StartTime = editing.StartTime;
             session.EndTime = editing.EndTime;
-            
         }
 
         await Db.SaveChangesAsync();
 
         sessions = await Db.TrainingSessions
-            .Where(s => s.UserId == userId)
+            .Where(s => s.UserId == currentUserId)
             .OrderByDescending(s => s.StartTime)
             .ToListAsync();
 
         isEditing = false;
+        editing = new TrainingSession();
     }
-
 
     private async Task DeleteAsync(int id)
     {
-        var userId = await GetUserId();
+        if (string.IsNullOrEmpty(currentUserId))
+            return;
 
-        var s = await Db.TrainingSessions.FindAsync(id);
-        if (s == null || s.UserId != userId)
+        var s = await Db.TrainingSessions
+            .FirstOrDefaultAsync(x => x.Id == id && x.UserId == currentUserId);
+
+        if (s == null)
             return;
 
         Db.TrainingSessions.Remove(s);
         await Db.SaveChangesAsync();
 
         sessions = await Db.TrainingSessions
-            .Where(s => s.UserId == userId)
+            .Where(x => x.UserId == currentUserId)
+            .OrderByDescending(x => x.StartTime)
             .ToListAsync();
     }
 }
