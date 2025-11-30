@@ -176,6 +176,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/vlady/source/repos/BeFit_Blazor/BeFit_Blazor/Components/Pages/AddAdmin.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZGRBZG1pbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/vlady/source/repos/BeFit_Blazor/BeFit_Blazor/Components/Pages/Auth.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBdXRoLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -188,12 +192,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/vlady/source/repos/BeFit_Blazor/BeFit_Blazor/Components/Pages/ExerciseEntries.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFeGVyY2lzZUVudHJpZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/vlady/source/repos/BeFit_Blazor/BeFit_Blazor/Components/Pages/ExerciseTypes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFeGVyY2lzZVR5cGVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vlady/source/repos/BeFit_Blazor/BeFit_Blazor/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vlady/source/repos/BeFit_Blazor/BeFit_Blazor/Components/Pages/Stats.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdGF0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vlady/source/repos/BeFit_Blazor/BeFit_Blazor/Components/Pages/TrainingSessions.razor]

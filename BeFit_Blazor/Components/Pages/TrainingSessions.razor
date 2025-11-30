@@ -1,9 +1,13 @@
 ﻿@page "/training-sessions"
+@attribute [Authorize]
 
 @using BeFit_Blazor.Data
 @using BeFit_Blazor.Models
+@using Microsoft.AspNetCore.Authorization
 @using Microsoft.EntityFrameworkCore
 @using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.AspNetCore.Components.Forms
 @inject ApplicationDbContext Db
 @inject UserManager<ApplicationUser> UserManager
 @inject AuthenticationStateProvider AuthStateProvider
@@ -64,11 +68,15 @@
     protected override async Task OnInitializedAsync()
     {
         var userId = await GetUserId();
+        if (string.IsNullOrEmpty(userId))
+            return;
 
         sessions = await Db.TrainingSessions
             .Where(s => s.UserId == userId)
+            .OrderByDescending(s => s.StartTime)
             .ToListAsync();
     }
+
 
     private async Task<string> GetUserId()
     {
@@ -77,13 +85,13 @@
         return UserManager.GetUserId(user);
     }
 
-    private async Task StartCreate()
+    private void StartCreate()
     {
         editing = new TrainingSession();
         isEditing = true;
     }
 
-    private async Task StartEdit(TrainingSession s)
+    private void StartEdit(TrainingSession s)
     {
         editing = new TrainingSession
         {
@@ -103,21 +111,39 @@
     private async Task SaveAsync()
     {
         var userId = await GetUserId();
-        editing.UserId = userId;
+        if (string.IsNullOrEmpty(userId))
+            return;
 
         if (editing.Id == 0)
+        {
+            
+            editing.UserId = userId;
             Db.TrainingSessions.Add(editing);
+        }
         else
-            Db.TrainingSessions.Update(editing);
+        {
+            
+            var session = await Db.TrainingSessions
+                .FirstOrDefaultAsync(s => s.Id == editing.Id && s.UserId == userId);
+
+            if (session is null)
+                return; 
+
+            session.StartTime = editing.StartTime;
+            session.EndTime = editing.EndTime;
+            
+        }
 
         await Db.SaveChangesAsync();
 
         sessions = await Db.TrainingSessions
             .Where(s => s.UserId == userId)
+            .OrderByDescending(s => s.StartTime)
             .ToListAsync();
 
         isEditing = false;
     }
+
 
     private async Task DeleteAsync(int id)
     {

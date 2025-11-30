@@ -7,8 +7,8 @@ namespace BeFit_Blazor.Models
         public int Id { get; set; }
 
         [Required]
-        public string UserId { get; set; }
-        public ApplicationUser User { get; set; }
+        public string UserId { get; set; } = null!;   
+        public ApplicationUser? User { get; set; }    
 
         [Required]
         [Display(Name = "Czas rozpoczęcia")]
@@ -18,4 +18,5 @@ namespace BeFit_Blazor.Models
         [Display(Name = "Czas zakończenia")]
         public DateTime EndTime { get; set; }
     }
+
 }

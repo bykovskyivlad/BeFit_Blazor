@@ -1,0 +1,125 @@
+﻿@page "/stats"
+@attribute [Authorize]
+
+@using BeFit_Blazor.Data
+@using BeFit_Blazor.Models
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Components.Authorization
+
+@inject ApplicationDbContext Db
+@inject UserManager<ApplicationUser> UserManager
+@inject AuthenticationStateProvider AuthStateProvider
+
+<h3>Statystyki z ostatnich 4 tygodni</h3>
+
+@if (!isLoaded)
+{
+    <p>Ładowanie...</p>
+}
+else if (!hasData)
+{
+    <p>Brak danych z ostatnich 4 tygodni. Czas na trening! </p>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-3 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Sesje treningowe</h5>
+                    <p class="card-text fs-3">@stat.TotalSessions</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Wpisy ćwiczeń</h5>
+                    <p class="card-text fs-3">@stat.TotalEntries</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Łączna liczba powtórzeń</h5>
+                    <p class="card-text fs-3">@stat.TotalReps</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Maksymalny ciężar</h5>
+                    <p class="card-text fs-3">@stat.MaxLoad.ToString("0.##") kg</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-md-3 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Średni ciężar</h5>
+                    <p class="card-text fs-3">@stat.AvgLoad.ToString("0.##") kg</p>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    private bool isLoaded = false;
+    private bool hasData = false;
+
+    private Stat stat = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        if (user.Identity?.IsAuthenticated != true)
+        {
+            isLoaded = true;
+            return;
+        }
+
+        var userId = UserManager.GetUserId(user);
+        if (string.IsNullOrEmpty(userId))
+        {
+            isLoaded = true;
+            return;
+        }
+
+        var fromDate = DateTime.Today.AddDays(-28);
+
+        
+        var sessions = await Db.TrainingSessions
+            .Where(s => s.UserId == userId && s.StartTime >= fromDate)
+            .ToListAsync();
+
+        var sessionIds = sessions.Select(s => s.Id).ToList();
+
+        
+        var entries = await Db.ExerciseEntries
+            .Where(e => e.UserId == userId && sessionIds.Contains(e.TrainingSessionId))
+            .ToListAsync();
+
+        stat.TotalSessions = sessions.Count;
+        stat.TotalEntries = entries.Count;
+        stat.TotalReps = entries.Sum(e => e.Sets * e.Reps);
+        stat.MaxLoad = entries.Any() ? entries.Max(e => e.Load) : 0;
+        stat.AvgLoad = entries.Any() ? entries.Average(e => e.Load) : 0;
+
+        hasData = stat.TotalSessions > 0 || stat.TotalEntries > 0;
+        isLoaded = true;
+    }
+}
+

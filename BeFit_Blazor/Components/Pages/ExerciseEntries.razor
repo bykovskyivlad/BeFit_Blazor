@@ -1,0 +1,255 @@
+﻿@page "/exercise-entries"
+@attribute [Authorize]
+
+@using BeFit_Blazor.Data
+@using BeFit_Blazor.Models
+@using BeFit_Blazor.Models.DTO
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Components.Forms
+
+@inject ApplicationDbContext Db
+@inject UserManager<ApplicationUser> UserManager
+@inject AuthenticationStateProvider AuthStateProvider
+
+<h3>Twoje wpisy ćwiczeń</h3>
+
+<button class="btn btn-primary mb-3" @onclick="StartCreate">Dodaj wpis</button>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Sesja</th>
+            <th>Ćwiczenie</th>
+            <th>Obciążenie (kg)</th>
+            <th>Serie</th>
+            <th>Powtórzenia</th>
+            <th>Akcje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (!entries.Any())
+        {
+            <tr>
+                
+            </tr>
+        }
+        else
+        {
+            @foreach (var e in entries)
+            {
+                <tr>
+                    <td>@e.TrainingSessionLabel</td>
+                    <td>@e.ExerciseTypeName</td>
+                    <td>@e.Load</td>
+                    <td>@e.Sets</td>
+                    <td>@e.Reps</td>
+                    <td>
+                        <button class="btn btn-warning btn-sm" @onclick="() => StartEdit(e.Id)">Edytuj</button>
+                        <button class="btn btn-danger btn-sm" @onclick="() => DeleteAsync(e.Id)">Usuń</button>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+@if (isEditing)
+{
+    <EditForm Model="editing" OnValidSubmit="SaveAsync">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-3">
+            <label>Sesja treningowa</label>
+            <InputSelect class="form-select" @bind-Value="editing.TrainingSessionId">
+                <option value="0">-- wybierz sesję --</option>
+                @foreach (var s in sessions)
+                {
+                    <option value="@s.Id">
+                        @s.StartTime.ToString("g") - @s.EndTime.ToString("g")
+                    </option>
+                }
+            </InputSelect>
+        </div>
+
+        <div class="mb-3">
+            <label>Ćwiczenie</label>
+            <InputSelect class="form-select" @bind-Value="editing.ExerciseTypeId">
+                <option value="0">-- wybierz ćwiczenie --</option>
+                @foreach (var t in exerciseTypes)
+                {
+                    <option value="@t.Id">@t.Name</option>
+                }
+            </InputSelect>
+        </div>
+
+        <div class="mb-3">
+            <label>Obciążenie (kg)</label>
+            <InputNumber class="form-control" @bind-Value="editing.Load" />
+        </div>
+
+        <div class="mb-3">
+            <label>Serie</label>
+            <InputNumber class="form-control" @bind-Value="editing.Sets" />
+        </div>
+
+        <div class="mb-3">
+            <label>Powtórzenia</label>
+            <InputNumber class="form-control" @bind-Value="editing.Reps" />
+        </div>
+
+        <button class="btn btn-success">Zapisz</button>
+        <button type="button" class="btn btn-secondary ms-2" @onclick="CancelEdit">Anuluj</button>
+    </EditForm>
+}
+
+@code {
+    private string? currentUserId;
+    private List<ExerciseEntryDto> entries = new();
+    private List<TrainingSession> sessions = new();
+    private List<ExerciseType> exerciseTypes = new();
+    private ExerciseEntryDto editing = new();
+    private bool isEditing = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+        if (user.Identity?.IsAuthenticated != true)
+            return;
+
+        currentUserId = UserManager.GetUserId(user);
+        if (string.IsNullOrEmpty(currentUserId))
+            return;
+
+        await LoadDataAsync();
+    }
+
+    private async Task LoadDataAsync()
+    {
+        sessions = await Db.TrainingSessions
+            .Where(s => s.UserId == currentUserId)
+            .OrderByDescending(s => s.StartTime)
+            .ToListAsync();
+
+        exerciseTypes = await Db.ExerciseTypes
+            .OrderBy(t => t.Name)
+            .ToListAsync();
+
+        entries = await Db.ExerciseEntries
+            .Where(e => e.UserId == currentUserId)
+            .OrderByDescending(e => e.Id)
+            .Select(e => new ExerciseEntryDto
+            {
+                Id = e.Id,
+                TrainingSessionId = e.TrainingSessionId,
+                ExerciseTypeId = e.ExerciseTypeId,
+                Load = e.Load,
+                Sets = e.Sets,
+                Reps = e.Reps,
+                TrainingSessionLabel = e.TrainingSession != null
+                    ? e.TrainingSession.StartTime.ToString("g") + " - " + e.TrainingSession.EndTime.ToString("g")
+                    : "",
+                ExerciseTypeName = e.ExerciseType != null ? e.ExerciseType.Name : ""
+            })
+            .ToListAsync();
+    }
+
+    private void StartCreate()
+    {
+        editing = new ExerciseEntryDto
+        {
+            TrainingSessionId = 0,
+            ExerciseTypeId = 0,
+            Load = 0,
+            Sets = 3,
+            Reps = 10
+        };
+        isEditing = true;
+    }
+
+    private void StartEdit(int id)
+    {
+        var e = entries.FirstOrDefault(x => x.Id == id);
+        if (e is null)
+            return;
+
+        editing = new ExerciseEntryDto
+        {
+            Id = e.Id,
+            TrainingSessionId = e.TrainingSessionId,
+            ExerciseTypeId = e.ExerciseTypeId,
+            Load = e.Load,
+            Sets = e.Sets,
+            Reps = e.Reps
+        };
+        isEditing = true;
+    }
+
+    private void CancelEdit()
+    {
+        editing = new ExerciseEntryDto();
+        isEditing = false;
+    }
+
+    private async Task SaveAsync()
+    {
+        if (string.IsNullOrEmpty(currentUserId))
+            return;
+
+        
+        if (editing.TrainingSessionId == 0 || editing.ExerciseTypeId == 0)
+            return;
+
+        if (editing.Id == 0)
+        {
+            var entity = new ExerciseEntry
+            {
+                UserId = currentUserId,
+                TrainingSessionId = editing.TrainingSessionId,
+                ExerciseTypeId = editing.ExerciseTypeId,
+                Load = editing.Load,
+                Sets = editing.Sets,
+                Reps = editing.Reps
+            };
+            Db.ExerciseEntries.Add(entity);
+        }
+        else
+        {
+            var entity = await Db.ExerciseEntries
+                .FirstOrDefaultAsync(e => e.Id == editing.Id && e.UserId == currentUserId);
+
+            if (entity is null)
+                return;
+
+            entity.TrainingSessionId = editing.TrainingSessionId;
+            entity.ExerciseTypeId = editing.ExerciseTypeId;
+            entity.Load = editing.Load;
+            entity.Sets = editing.Sets;
+            entity.Reps = editing.Reps;
+        }
+
+        await Db.SaveChangesAsync();
+        isEditing = false;
+        await LoadDataAsync();
+    }
+
+    private async Task DeleteAsync(int id)
+    {
+        if (string.IsNullOrEmpty(currentUserId))
+            return;
+
+        var entity = await Db.ExerciseEntries
+            .FirstOrDefaultAsync(e => e.Id == id && e.UserId == currentUserId);
+
+        if (entity is null)
+            return;
+
+        Db.ExerciseEntries.Remove(entity);
+        await Db.SaveChangesAsync();
+        await LoadDataAsync();
+    }
+}

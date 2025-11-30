@@ -3,16 +3,100 @@
   "WorkspaceRootPath": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Migrations\\20251127132714_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BeFit_Blazor\\Migrations\\20251127132714_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\account\\shared\\managenavmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\account\\shared\\managenavmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\models\\exerciseentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\models\\exerciseentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Migrations\\20251130010547_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BeFit_Blazor\\Migrations\\20251130010547_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\pages\\exerciseentries.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\pages\\exerciseentries.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\models\\dto\\exerciseentrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\models\\dto\\exerciseentrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Migrations\\20251130005700_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BeFit_Blazor\\Migrations\\20251130005700_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\pages\\trainingsessions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\pages\\trainingsessions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\pages\\exercisetypes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\pages\\exercisetypes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\pages\\stats.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\pages\\stats.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\models\\stat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\models\\stat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\models\\exercisetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\models\\exercisetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\models\\trainingsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\models\\trainingsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Migrations\\20251130003817_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BeFit_Blazor\\Migrations\\20251130003817_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\pages\\addadmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\pages\\addadmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\account\\pages\\loginwithrecoverycode.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\account\\pages\\loginwithrecoverycode.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Migrations\\20251129235530_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BeFit_Blazor\\Migrations\\20251129235530_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\account\\shared\\managenavmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\account\\shared\\managenavmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\account\\pages\\externallogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,20 +107,8 @@
       "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\account\\shared\\externalloginpicker.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\account\\pages\\manage\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -135,10 +207,6 @@
       "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\account\\pages\\loginwith2fa.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\account\\pages\\loginwithrecoverycode.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\account\\pages\\loginwithrecoverycode.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\account\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\account\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -199,44 +267,8 @@
       "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\account\\identitynoopemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\account\\identitynoopemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\pages\\trainingsessions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\pages\\trainingsessions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\models\\trainingsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\models\\trainingsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\models\\exercisetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\models\\exercisetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\pages\\exercisetypes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|solutionrelative:befit_blazor\\components\\pages\\exercisetypes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C3072E3-450B-4289-9192-AB63551EEB9E}|BeFit_Blazor\\BeFit_Blazor.csproj|c:\\users\\vlady\\source\\repos\\befit_blazor\\befit_blazor\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -258,7 +290,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 64,
           "Children": [
             {
               "$type": "Bookmark",
@@ -270,33 +302,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20251127132714_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Migrations\\20251127132714_Initial.cs",
-              "RelativeDocumentMoniker": "BeFit_Blazor\\Migrations\\20251127132714_Initial.cs",
-              "ToolTip": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Migrations\\20251127132714_Initial.cs",
-              "RelativeToolTip": "BeFit_Blazor\\Migrations\\20251127132714_Initial.cs",
+              "DocumentIndex": 3,
+              "Title": "20251130010547_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Migrations\\20251130010547_Initial.cs",
+              "RelativeDocumentMoniker": "BeFit_Blazor\\Migrations\\20251130010547_Initial.cs",
+              "ToolTip": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Migrations\\20251130010547_Initial.cs",
+              "RelativeToolTip": "BeFit_Blazor\\Migrations\\20251130010547_Initial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T13:27:14.263Z",
+              "WhenOpened": "2025-11-30T01:05:47.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
+              "Title": "ExerciseEntryDto.cs",
+              "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Models\\DTO\\ExerciseEntryDto.cs",
+              "RelativeDocumentMoniker": "BeFit_Blazor\\Models\\DTO\\ExerciseEntryDto.cs",
+              "ToolTip": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Models\\DTO\\ExerciseEntryDto.cs",
+              "RelativeToolTip": "BeFit_Blazor\\Models\\DTO\\ExerciseEntryDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T01:01:32.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20251130005700_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Migrations\\20251130005700_Initial.cs",
+              "RelativeDocumentMoniker": "BeFit_Blazor\\Migrations\\20251130005700_Initial.cs",
+              "ToolTip": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Migrations\\20251130005700_Initial.cs",
+              "RelativeToolTip": "BeFit_Blazor\\Migrations\\20251130005700_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T00:57:00.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20251130003817_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Migrations\\20251130003817_Initial.cs",
+              "RelativeDocumentMoniker": "BeFit_Blazor\\Migrations\\20251130003817_Initial.cs",
+              "ToolTip": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Migrations\\20251130003817_Initial.cs",
+              "RelativeToolTip": "BeFit_Blazor\\Migrations\\20251130003817_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T00:38:17.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddAdmin.razor",
+              "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Pages\\AddAdmin.razor",
+              "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Pages\\AddAdmin.razor",
+              "ToolTip": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Pages\\AddAdmin.razor",
+              "RelativeToolTip": "BeFit_Blazor\\Components\\Pages\\AddAdmin.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T00:36:33.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Stats.razor",
+              "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Pages\\Stats.razor",
+              "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Pages\\Stats.razor",
+              "ToolTip": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Pages\\Stats.razor",
+              "RelativeToolTip": "BeFit_Blazor\\Components\\Pages\\Stats.razor",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAABYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T00:12:10.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Stat.cs",
+              "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Models\\Stat.cs",
+              "RelativeDocumentMoniker": "BeFit_Blazor\\Models\\Stat.cs",
+              "ToolTip": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Models\\Stat.cs",
+              "RelativeToolTip": "BeFit_Blazor\\Models\\Stat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T00:10:46.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExerciseEntries.razor",
+              "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Pages\\ExerciseEntries.razor",
+              "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Pages\\ExerciseEntries.razor",
+              "ToolTip": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Pages\\ExerciseEntries.razor",
+              "RelativeToolTip": "BeFit_Blazor\\Components\\Pages\\ExerciseEntries.razor",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAACYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T00:02:56.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20251129235530_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Migrations\\20251129235530_Initial.cs",
+              "RelativeDocumentMoniker": "BeFit_Blazor\\Migrations\\20251129235530_Initial.cs",
+              "ToolTip": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Migrations\\20251129235530_Initial.cs",
+              "RelativeToolTip": "BeFit_Blazor\\Migrations\\20251129235530_Initial.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T23:55:30.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Layout\\NavMenu.razor",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "BeFit_Blazor\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAADwvzgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-27T13:25:04.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Layout\\MainLayout.razor",
@@ -309,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 27,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\Manage\\_Imports.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\_Imports.razor",
@@ -317,12 +453,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:24:54.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:24:54.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 28,
               "Title": "ChangePassword.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\Manage\\ChangePassword.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\ChangePassword.razor",
@@ -330,12 +465,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\ChangePassword.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:24:47.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:24:47.372Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 29,
               "Title": "DeletePersonalData.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\Manage\\DeletePersonalData.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\DeletePersonalData.razor",
@@ -343,12 +477,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\DeletePersonalData.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:24:41.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:24:41.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 30,
               "Title": "Disable2fa.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\Manage\\Disable2fa.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\Disable2fa.razor",
@@ -356,12 +489,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\Disable2fa.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:24:33.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:24:33.084Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 31,
               "Title": "Email.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\Manage\\Email.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\Email.razor",
@@ -369,12 +501,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\Email.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:24:20.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:24:20.939Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 32,
               "Title": "EnableAuthenticator.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\Manage\\EnableAuthenticator.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\EnableAuthenticator.razor",
@@ -382,12 +513,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\EnableAuthenticator.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:24:16.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:24:16.196Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 33,
               "Title": "ExternalLogins.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\Manage\\ExternalLogins.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\ExternalLogins.razor",
@@ -395,12 +525,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\ExternalLogins.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:24:08.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:24:08.155Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 34,
               "Title": "GenerateRecoveryCodes.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\Manage\\GenerateRecoveryCodes.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\GenerateRecoveryCodes.razor",
@@ -408,12 +537,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\GenerateRecoveryCodes.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:23:58.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:23:58.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 35,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\Manage\\Index.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\Index.razor",
@@ -421,12 +549,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\Index.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:23:47.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:23:47.723Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 36,
               "Title": "PersonalData.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\Manage\\PersonalData.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\PersonalData.razor",
@@ -434,12 +561,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\PersonalData.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:23:32.348Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:23:32.348Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 37,
               "Title": "ResetAuthenticator.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\Manage\\ResetAuthenticator.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\ResetAuthenticator.razor",
@@ -447,12 +573,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\ResetAuthenticator.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:23:17.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:23:17.823Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 38,
               "Title": "SetPassword.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\Manage\\SetPassword.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\SetPassword.razor",
@@ -460,12 +585,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\SetPassword.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:22:30.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:22:30.657Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 39,
               "Title": "TwoFactorAuthentication.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\Manage\\TwoFactorAuthentication.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\TwoFactorAuthentication.razor",
@@ -473,12 +597,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\Manage\\TwoFactorAuthentication.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:22:22.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:22:22.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 40,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\_Imports.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\_Imports.razor",
@@ -486,12 +609,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:22:20.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:22:20.036Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 41,
               "Title": "AccessDenied.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\AccessDenied.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\AccessDenied.razor",
@@ -499,12 +621,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\AccessDenied.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:22:17.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:22:17.536Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 42,
               "Title": "ConfirmEmail.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\ConfirmEmail.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\ConfirmEmail.razor",
@@ -512,12 +633,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\ConfirmEmail.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:22:06.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:22:06.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 43,
               "Title": "ConfirmEmailChange.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\ConfirmEmailChange.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\ConfirmEmailChange.razor",
@@ -525,12 +645,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\ConfirmEmailChange.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:21:59.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:21:59.725Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 24,
               "Title": "ExternalLogin.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\ExternalLogin.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\ExternalLogin.razor",
@@ -538,12 +657,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\ExternalLogin.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAewAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:21:53.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:21:53.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 44,
               "Title": "ForgotPassword.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\ForgotPassword.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\ForgotPassword.razor",
@@ -551,12 +669,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\ForgotPassword.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:21:46.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:21:46.77Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 45,
               "Title": "ForgotPasswordConfirmation.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\ForgotPasswordConfirmation.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\ForgotPasswordConfirmation.razor",
@@ -564,12 +681,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\ForgotPasswordConfirmation.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:21:45.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:21:45.155Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 46,
               "Title": "InvalidPasswordReset.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\InvalidPasswordReset.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\InvalidPasswordReset.razor",
@@ -577,12 +693,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\InvalidPasswordReset.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:21:43.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:21:43.427Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 47,
               "Title": "InvalidUser.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\InvalidUser.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\InvalidUser.razor",
@@ -590,12 +705,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\InvalidUser.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:21:41.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:21:41.014Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 48,
               "Title": "Lockout.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\Lockout.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\Lockout.razor",
@@ -603,12 +717,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\Lockout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:21:37.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:21:37.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 49,
               "Title": "Login.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\Login.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\Login.razor",
@@ -616,12 +729,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\Login.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:21:24.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:21:24.688Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 50,
               "Title": "LoginWith2fa.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\LoginWith2fa.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\LoginWith2fa.razor",
@@ -629,12 +741,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\LoginWith2fa.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:21:19.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:21:19.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 21,
               "Title": "LoginWithRecoveryCode.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\LoginWithRecoveryCode.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\LoginWithRecoveryCode.razor",
@@ -647,7 +758,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 51,
               "Title": "Register.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\Register.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\Register.razor",
@@ -655,12 +766,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\Register.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:20:24.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:20:24.587Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 52,
               "Title": "RegisterConfirmation.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\RegisterConfirmation.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\RegisterConfirmation.razor",
@@ -668,12 +778,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\RegisterConfirmation.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:20:05.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:20:05.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 53,
               "Title": "ResetPassword.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\ResetPassword.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\ResetPassword.razor",
@@ -681,12 +790,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\ResetPassword.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:19:51.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:19:51.533Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 54,
               "Title": "ResetPasswordConfirmation.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\ResetPasswordConfirmation.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\ResetPasswordConfirmation.razor",
@@ -694,12 +802,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\ResetPasswordConfirmation.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:19:48.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:19:48.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 55,
               "Title": "ResendEmailConfirmation.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Pages\\ResendEmailConfirmation.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Pages\\ResendEmailConfirmation.razor",
@@ -707,12 +814,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Pages\\ResendEmailConfirmation.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:19:11.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:19:11.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 56,
               "Title": "AccountLayout.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Shared\\AccountLayout.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Shared\\AccountLayout.razor",
@@ -720,12 +826,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Shared\\AccountLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:19:06.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:19:06.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 25,
               "Title": "ExternalLoginPicker.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Shared\\ExternalLoginPicker.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Shared\\ExternalLoginPicker.razor",
@@ -733,12 +838,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Shared\\ExternalLoginPicker.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:19:03.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:19:03.168Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 23,
               "Title": "ManageNavMenu.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Shared\\ManageNavMenu.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Shared\\ManageNavMenu.razor",
@@ -746,12 +850,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Shared\\ManageNavMenu.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:19:02.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:19:02.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 57,
               "Title": "RedirectToLogin.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Shared\\RedirectToLogin.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Shared\\RedirectToLogin.razor",
@@ -759,12 +862,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Shared\\RedirectToLogin.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:19:01.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:19:01.449Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 58,
               "Title": "ShowRecoveryCodes.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Shared\\ShowRecoveryCodes.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Shared\\ShowRecoveryCodes.razor",
@@ -772,12 +874,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Shared\\ShowRecoveryCodes.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:18:59.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:18:59.47Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 59,
               "Title": "StatusMessage.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\Shared\\StatusMessage.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\Shared\\StatusMessage.razor",
@@ -785,12 +886,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\Shared\\StatusMessage.razor",
               "ViewState": "AgIAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:18:56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:18:56Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 60,
               "Title": "IdentityComponentsEndpointRouteBuilderExtensions.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\IdentityComponentsEndpointRouteBuilderExtensions.cs",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\IdentityComponentsEndpointRouteBuilderExtensions.cs",
@@ -798,12 +898,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\IdentityComponentsEndpointRouteBuilderExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T13:18:42.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:18:42.937Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 61,
               "Title": "IdentityRedirectManager.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\IdentityRedirectManager.cs",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\IdentityRedirectManager.cs",
@@ -811,12 +910,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\IdentityRedirectManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T13:18:30.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:18:30.971Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 63,
               "Title": "IdentityUserAccessor.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\IdentityUserAccessor.cs",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\IdentityUserAccessor.cs",
@@ -824,12 +922,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\IdentityUserAccessor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T13:18:07.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:18:07.505Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 64,
               "Title": "Auth.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Pages\\Auth.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Pages\\Auth.razor",
@@ -837,12 +934,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Pages\\Auth.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T13:18:03.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:18:03.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 62,
               "Title": "IdentityRevalidatingAuthenticationStateProvider.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\IdentityRevalidatingAuthenticationStateProvider.cs",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\IdentityRevalidatingAuthenticationStateProvider.cs",
@@ -850,12 +946,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\IdentityRevalidatingAuthenticationStateProvider.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T13:16:20.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:16:20.148Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 66,
               "Title": "IdentityNoOpEmailSender.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Account\\IdentityNoOpEmailSender.cs",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Account\\IdentityNoOpEmailSender.cs",
@@ -863,25 +958,24 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Account\\IdentityNoOpEmailSender.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T13:15:56.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:15:56.024Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 7,
               "Title": "TrainingSessions.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Pages\\TrainingSessions.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Pages\\TrainingSessions.razor",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Pages\\TrainingSessions.razor",
               "RelativeToolTip": "BeFit_Blazor\\Components\\Pages\\TrainingSessions.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-27T13:08:08.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 20,
               "Title": "Weather.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Pages\\Weather.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Pages\\Weather.razor",
@@ -894,20 +988,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 8,
               "Title": "ExerciseTypes.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Pages\\ExerciseTypes.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Pages\\ExerciseTypes.razor",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Pages\\ExerciseTypes.razor",
               "RelativeToolTip": "BeFit_Blazor\\Components\\Pages\\ExerciseTypes.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-27T12:32:23.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 65,
               "Title": "Counter.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Pages\\Counter.razor",
@@ -915,12 +1009,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Pages\\Counter.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T12:31:34.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T12:31:34.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 26,
               "Title": "Error.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Pages\\Error.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Pages\\Error.razor",
@@ -928,12 +1021,11 @@
               "RelativeToolTip": "BeFit_Blazor\\Components\\Pages\\Error.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T12:31:33.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T12:31:33.305Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 19,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\Pages\\Home.razor",
@@ -946,7 +1038,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 67,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Components\\App.razor",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Components\\App.razor",
@@ -958,7 +1050,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 68,
               "Title": "20251126152956_ModelsAdded.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Migrations\\20251126152956_ModelsAdded.cs",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Migrations\\20251126152956_ModelsAdded.cs",
@@ -970,20 +1062,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 0,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "BeFit_Blazor\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T15:24:29.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 2,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Models\\ApplicationUser.cs",
@@ -996,46 +1088,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ExerciseEntry.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Models\\ExerciseEntry.cs",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Models\\ExerciseEntry.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Models\\ExerciseEntry.cs",
               "RelativeToolTip": "BeFit_Blazor\\Models\\ExerciseEntry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIAwwAkAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T15:24:00.173Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 12,
               "Title": "TrainingSession.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Models\\TrainingSession.cs",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Models\\TrainingSession.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Models\\TrainingSession.cs",
               "RelativeToolTip": "BeFit_Blazor\\Models\\TrainingSession.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAADwvxUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwAkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T15:23:46.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 11,
               "Title": "ExerciseType.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Models\\ExerciseType.cs",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Models\\ExerciseType.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Models\\ExerciseType.cs",
               "RelativeToolTip": "BeFit_Blazor\\Models\\ExerciseType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T15:23:16.372Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 69,
               "Title": "20251126152116_Initial.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Migrations\\20251126152116_Initial.cs",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Migrations\\20251126152116_Initial.cs",
@@ -1047,20 +1139,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Program.cs",
               "RelativeDocumentMoniker": "BeFit_Blazor\\Program.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\Program.cs",
               "RelativeToolTip": "BeFit_Blazor\\Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAADgv0cAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T15:06:13.962Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\BeFit_Blazor\\BeFit_Blazor\\appsettings.json",
               "RelativeDocumentMoniker": "BeFit_Blazor\\appsettings.json",

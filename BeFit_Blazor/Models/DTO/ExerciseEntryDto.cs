@@ -1,24 +1,18 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BeFit_Blazor.Models
+namespace BeFit_Blazor.Models.DTO
 {
-    public class ExerciseEntry
+    public class ExerciseEntryDto
     {
         public int Id { get; set; }
 
         [Required]
-        public string UserId { get; set; } = null!;
-        public ApplicationUser? User { get; set; }
+        [Display(Name = "Sesja treningowa")]
+        public int TrainingSessionId { get; set; }
 
         [Required]
         [Display(Name = "Typ ćwiczenia")]
         public int ExerciseTypeId { get; set; }
-        public ExerciseType? ExerciseType { get; set; }
-
-        [Required]
-        [Display(Name = "Sesja treningowa")]
-        public int TrainingSessionId { get; set; }
-        public TrainingSession? TrainingSession { get; set; }
 
         [Range(0, 1000, ErrorMessage = "Obciążenie musi być między 0 a 1000 kg")]
         [Display(Name = "Obciążenie (kg)")]
@@ -31,5 +25,9 @@ namespace BeFit_Blazor.Models
         [Range(1, 100, ErrorMessage = "Liczba powtórzeń musi być między 1 a 100")]
         [Display(Name = "Powtórzenia w serii")]
         public int Reps { get; set; }
+
+        
+        public string? TrainingSessionLabel { get; set; }
+        public string? ExerciseTypeName { get; set; }
     }
 }

@@ -1,0 +1,78 @@
+﻿@page "/add-admin"
+@attribute [Authorize]
+
+@using BeFit_Blazor.Models
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Components.Authorization
+
+@inject UserManager<ApplicationUser> UserManager
+@inject RoleManager<IdentityRole> RoleManager
+@inject AuthenticationStateProvider AuthStateProvider
+
+<h3>Nadawanie roli Admin</h3>
+
+@if (!done)
+{
+    <p>Sprawdzam rolę <strong>Admin</strong> i ustawiam ją, jeśli jeszcze nikt jej nie ma...</p>
+}
+else
+{
+    <div class="alert alert-info mt-3">
+        @message
+    </div>
+}
+
+@code {
+    private bool done = false;
+    private string message = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        if (user.Identity?.IsAuthenticated != true)
+        {
+            message = "Musisz być zalogowany.";
+            done = true;
+            return;
+        }
+
+        var appUser = await UserManager.GetUserAsync(user);
+        if (appUser is null)
+        {
+            message = "Nie udało się pobrać użytkownika.";
+            done = true;
+            return;
+        }
+
+        var roleName = "Admin";
+
+
+        if (!await RoleManager.RoleExistsAsync(roleName))
+        {
+            await RoleManager.CreateAsync(new IdentityRole(roleName));
+        }
+
+
+        var admins = await UserManager.GetUsersInRoleAsync(roleName);
+
+        if (admins.Count == 0)
+        {
+
+            await UserManager.AddToRoleAsync(appUser, roleName);
+            message = "Ustawiono Cię jako Admina w systemie ";
+        }
+        else if (admins.Any(a => a.Id == appUser.Id))
+        {
+            message = "Już jesteś Adminem.";
+        }
+        else
+        {
+            message = "Admin jest już ustawiony – nie możesz zostać kolejnym Adminem.";
+        }
+
+        done = true;
+    }
+}

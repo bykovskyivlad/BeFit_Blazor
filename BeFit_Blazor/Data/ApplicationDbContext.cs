@@ -11,8 +11,10 @@ namespace BeFit_Blazor.Data
         {
         }
 
-        public DbSet<ExerciseType> ExerciseTypes { get; set; }
-        public DbSet<TrainingSession> TrainingSessions { get; set; }
-        public DbSet<ExerciseEntry> ExerciseEntries { get; set; }
+        public DbSet<ExerciseType> ExerciseTypes { get; set; } = null!;
+        public DbSet<TrainingSession> TrainingSessions { get; set; } = null!;
+        public DbSet<ExerciseEntry> ExerciseEntries { get; set; } = null!;
+
+
     }
 }
